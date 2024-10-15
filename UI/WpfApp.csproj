@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\card1.png" />
+    <None Remove="Assets\card10.png" />
+    <None Remove="Assets\card2.png" />
+    <None Remove="Assets\card3.png" />
+    <None Remove="Assets\card4.png" />
+    <None Remove="Assets\card5.png" />
+    <None Remove="Assets\card6.png" />
+    <None Remove="Assets\card7.png" />
+    <None Remove="Assets\card8.png" />
+    <None Remove="Assets\card9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\card10.png" />
+    <Resource Include="Assets\card2.png" />
+    <Resource Include="Assets\card3.png" />
+    <Resource Include="Assets\card4.png" />
+    <Resource Include="Assets\card5.png" />
+    <Resource Include="Assets\card6.png" />
+    <Resource Include="Assets\card7.png" />
+    <Resource Include="Assets\card8.png" />
+    <Resource Include="Assets\card9.png" />
+  </ItemGroup>
+	
+</Project>
